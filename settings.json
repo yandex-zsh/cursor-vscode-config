@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "glassit.alpha": 220,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.color": "#fabd2f",
+    "material-icon-theme.files.color": "#b8bb26",
+    "editor.fontFamily": "'Pixel Code', 'Pixelcraft Nerd Font'",
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#fb4934",
+        "terminalCursor.foreground": "#fb4934",
+        // Enhanced contrast customizations
+        "editor.foreground": "#fbf1c7",  // Brighter base text (Gruvbox light yellow)
+        "editor.background": "#282828",  // Darker base (Gruvbox bg0)
+        "editorLineNumber.foreground": "#fabd2f",  // Highlight line numbers
+        "contrastBorder": "#fabd2f",  // Border around UI elements for separation
+        "focusBorder": "#b8bb26",  // Border for focused items
+        "editor.selectionBackground": "#fabd2f44",  // Semi-transparent selection
+        "editor.occurrencesHighlight.background": "#fabd2f33"
+    },
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorWidth": 2,
+    "editor.cursorStyle": "line",
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    // Word highlighting (from previous)
+    "editor.tokenColorCustomizations": {
+        "rules": [
+            {
+                "token": "TODO|FIXME|IMPORTANT",
+                "foreground": "#b8bb26",
+                "fontStyle": "bold italic"
+            }
+        ]
+    },
+    "git.autofetch": true,
+    "explorer.confirmDelete": false
+}
