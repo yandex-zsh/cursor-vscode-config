@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+i",
+        "command": "composerMode.agent",    
+    },
+    
+    {
+        // Inspired by Intelliji u can also do the alt+shift+arrow_down
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+    
+]
